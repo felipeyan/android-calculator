@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout style="@style/resultContainer">
-        <androidx.appcompat.widget.AppCompatEditText style="@style/resultText"/>
+        <androidx.appcompat.widget.AppCompatEditText android:id="@+id/resultText" style="@style/resultText"/>
     </LinearLayout>
 
     <LinearLayout style="@style/mainContainer">
@@ -88,7 +88,7 @@
 
         <LinearLayout style="@style/cardsContainer">
             <androidx.cardview.widget.CardView android:id="@+id/num0" android:layout_weight="1" style="@style/numCard">
-                <androidx.appcompat.widget.AppCompatTextView android:text="@string/num0" style="@style/numText"/>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@+id/txt0" android:text="@string/num0" style="@style/numText"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView android:id="@+id/funcDecimal" android:layout_weight="1" style="@style/numCard">
